@@ -3,16 +3,16 @@ bot = Bot()
 bot.login(username="", password="")
 
 ######  upload a picture #######
-bot.upload_photo("yoda.jpg", caption="biscuit eating baby")
+bot.upload_photo("Logo.jpg", caption='"Feel Like a King"')
 
 ######  follow someone #######
-bot.follow("elonrmuskk")
+bot.follow("TechiEmpire")
 
 ######  send a message #######
-bot.send_message("Hello from Dhaval", ['user1','user2'])
+bot.send_message("Hello from TechiEmpire", ['user1','user2'])
 
 ######  get follower info #######
-my_followers = bot.get_user_followers("dhavalsays")
+my_followers = bot.get_user_followers("TechiEmpire")
 for follower in my_followers:
     print(follower)
 
