@@ -3,7 +3,7 @@ bot = Bot()
 bot.login(username="", password="")
 
 ######  upload a picture #######
-bot.upload_photo("Logo.jpg", caption='"Feel Like a King"')
+bot.upload_photo("KingFace_White.png", caption='"Feel Like a King"')
 
 ######  follow someone #######
 bot.follow("TechiEmpire")
